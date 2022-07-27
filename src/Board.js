@@ -60,7 +60,7 @@ class Board extends React.Component {
     return (
       <div className="board">
         {this.state.notes.map(this.eachNote)}
-        <button onClick={() => this.add()}>+</button>
+        <button className="btn btn-success btn-plus" onClick={() => this.add()}>Add +</button>
       </div>
     );
   }

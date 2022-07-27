@@ -37,7 +37,7 @@ class Note extends React.Component {
   renderForm = () => {
     return (
       <div className="note" style={this.style}>
-        <textarea class="form-control" rows="3" ref="newText"></textarea>
+        <textarea className="form-control" rows="3" ref="newText"></textarea>
         <button className="btn btn-success" onClick={this.save}>Save</button>
       </div>
     );
